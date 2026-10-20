@@ -1,1 +1,25 @@
-C:\Users\zcalb
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Car Care</title>
+<style>
+  :root { --bg:#fff; --fg:#1b1f24; --mut:#5b6570; --acc:#1a5fd0; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#12151a; --fg:#e8ebef; --mut:#9aa4af; --acc:#8ab4ff; } }
+  body { background:var(--bg); color:var(--fg); font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,sans-serif; margin:0; }
+  main { max-width:680px; margin:0 auto; padding:32px 16px 64px; }
+  h1 { font-size:1.9rem; margin:0 0 4px; } h2 { font-size:1.15rem; margin-top:28px; }
+  p.sub { color:var(--mut); margin-top:0; } a { color:var(--acc); } li { margin:6px 0; }
+</style>
+</head><body><main>
+<h1>Car Care</h1>
+<p class="sub">A personal Android app that tracks car maintenance and reminds you when something is due.</p>
+<h2>What it does</h2>
+<ul>
+  <li>Keeps a list of maintenance jobs for each of your cars. You pick the jobs and how often each repeats, by miles, months, or both.</li>
+  <li>Sends a notification when a job is overdue or coming up.</li>
+  <li>Records service history: date, odometer, cost, notes, and whether you or a shop did the work.</li>
+  <li>Optionally backs up to a Google Sheet in your own Google Drive.</li>
+</ul>
+<h2>Google access</h2>
+<p>If you tap "Connect Google Sheets", the app asks for the <code>drive.file</code> permission. It can only create and update the one spreadsheet it makes. It cannot see any other file in your Drive.</p>
+<p><a href="privacy.html">Privacy policy</a></p>
+</main></body></html>
